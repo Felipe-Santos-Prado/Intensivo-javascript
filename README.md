@@ -19,13 +19,12 @@ Contém todos os arquivos necessários para execução
 
 Inclui:
 
-  <li>Imagens
+  <li>Imagens<li>
   
-  Áudios
+  <li>Áudios<li>
   
-  Scripts CSS
+  <li>Scripts CSS<li>
   
-  Scripts JavaScript
-  <li>
+  <li>cripts JavaScript<li>
 
 📂 Basta abrir o arquivo index.html no navegador.
