@@ -14,18 +14,18 @@ Cada aula aborda conceitos diferentes e utiliza abordagens distintas de organiza
 
 📌 Aula 01
 
-<li>Projeto desenvolvido com HTML, CSS e JavaScript puro<li>
-
+Projeto desenvolvido com HTML, CSS e JavaScript puro
 Contém todos os arquivos necessários para execução
 
 Inclui:
 
-Imagens
-
-Áudios
-
-Scripts CSS
-
-Scripts JavaScript
+  <li>Imagens
+  
+  Áudios
+  
+  Scripts CSS
+  
+  Scripts JavaScript
+  <li>
 
 📂 Basta abrir o arquivo index.html no navegador.
