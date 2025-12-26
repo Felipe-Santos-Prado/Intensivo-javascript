@@ -1,0 +1,82 @@
+/* Pré-definições */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh; /* 100% da altura da tela */
+    background-image: linear-gradient(to bottom,
+            hsl(141, 73%, 20%),
+            hsl(141deg 75% 5%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#capitulo {
+    font-size: 22.4px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#nome-autor{
+    font-size: 19.2px;
+}
+
+#anterior,
+#proximo {
+    width: 60px;
+}
+
+svg:hover {
+    cursor: pointer;
+    filter: brightness(0.8); 
+}
+
+.pause:hover,
+.play:hover {
+    transform: scale(1.1); /* Faz o botão crescer */
+    transition: transform 0.4s; /* Suaviza o efeito */
+}
+
+
+#play-pause {
+    width: 60px;
+    height: 60px;
+}
+
+#container-botoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play {
+    display: block;
+}
+
+.pause {
+    display: none;
+}
+
+/* Caso o classe play esteja adicionado junto com a classe tocando, ele se torna invível */
+.tocando .play{
+    display: none;
+}
+
+/* Caso o classe play esteja adicionado junto com a classe tocando, ele se torna visivel */
+.tocando .pause{
+    display: block;
+}
